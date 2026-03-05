@@ -6,8 +6,8 @@ import java.sql.DriverManager;
 
 public class DButil {
 	private static final String URL=  "jdbc:mysql://localhost:3306/expense_tracker?useSSL=false&serverTimezone=UTC";
-    private static final String USER = "root";       // your MySQL username
-    private static final String PASSWORD = "Sitara@3459";
+    private static final String USER = "root";     			    // your MySQL username
+    private static final String PASSWORD = "YOUR_DB_PASSWORD"; //  your MySQL password
 
     public static Connection getConnection() {
         try {

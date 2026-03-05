@@ -119,7 +119,6 @@ public static void main(String[] args) {
       System.out.println("5.Exit");
       System.out.println("6. Category-wise Report");
       System.out.println("7. View expenses by Date");
-//      System.out.println("8. View expenses by Month");
       System.out.println("Enter your choice: ");
 
       choice =sc.nextInt();
